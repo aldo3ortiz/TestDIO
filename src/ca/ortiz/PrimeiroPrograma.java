@@ -1,6 +1,7 @@
 package ca.ortiz;
 
 import ca.ortiz.model.Gato;
+import ca.ortiz.model.Livro;
 
 public class PrimeiroPrograma {
 
@@ -16,10 +17,16 @@ public class PrimeiroPrograma {
 		gato.setNome("felix");
 		gato.setCor("preto");
 		gato.setIdade(10);
-		
-		
+				
 		//System.out.println(gato.toString());
 		System.out.println(gato);
+		
+		Livro livro = new Livro();
+		livro.setlNome("Hoje");
+		livro.setlAno(2022);
+		
+		System.out.println(livro);
+		
 	}
 
 }
